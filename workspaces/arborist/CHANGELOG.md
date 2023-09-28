@@ -1,5 +1,17 @@
 # Changelog
 
+## [7.2.0](https://github.com/npm/cli/compare/arborist-v7.1.0...arborist-v7.2.0) (2023-09-28)
+
+### Features
+
+* [`81a460f`](https://github.com/npm/cli/commit/81a460f6e6317aca2288d16cda591aa6541540c6) [#6732](https://github.com/npm/cli/pull/6732) add package-lock-only mode to npm query (@wraithgar)
+* [`0d29855`](https://github.com/npm/cli/commit/0d2985535c9cc3dfc3e1f355580570c9cce37d61) [#6732](https://github.com/npm/cli/pull/6732) add no-package-lock mode to npm audit (@wraithgar)
+
+### Bug Fixes
+
+* [`0860159`](https://github.com/npm/cli/commit/0860159e18aa0fa985ef53fcfe0a57fbda995efb) [#6829](https://github.com/npm/cli/pull/6829) ensure workspace links query parents correctly (#6829) (@Carl-Foster)
+* [`bef7481`](https://github.com/npm/cli/commit/bef7481282f18f5b8ad864dc76669801187029fe) [#6782](https://github.com/npm/cli/pull/6782) query with workspace descendents (#6782) (@bdehamer)
+
 ## [7.1.0](https://github.com/npm/cli/compare/arborist-v7.0.0...arborist-v7.1.0) (2023-09-08)
 
 ### Features
